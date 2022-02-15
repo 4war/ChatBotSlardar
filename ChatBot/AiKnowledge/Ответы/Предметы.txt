@@ -1,0 +1,58 @@
+blink dagger:субъект:(2250) Легендарный кинжал, которым когда-то пользовался самый быстрый убийца на свете.
+blink dagger:описание:Blink Dagger обычно нужен героям, которым нехватает мобильности или инициаторам
+blink dagger:время:К 20 минуте
+blink dagger:причина:Для быстрого "пик-оффа" коров противника
+blink dagger:место:В основной лавке, в разделе Разное
+blink dagger:утверждение:Да_Нет
+power treads:субъект:(1400) Пара сапог, выделанных из жесткой кожи, которая способна изменять свои свойства по желанию владельца.
+power treads:описание: Лучше чем Phase Boots и в большинстве игр лучше выбирать их
+power treads:время:5-6 минута
+power treads:причина:Дают к 35 скорости атаки, а Слардару очень нужна скорость атаки
+power treads:место:В Основной лавке, в разделе Аксессуары.
+power treads:утверждение:Да_Нет
+phase boots:субъект:(1500) Ботинки, которые позволяют владельцу путешествовать между мирами.
+phase boots:описание:Нужны, когда коры противника - герои дальнего боя. Всегда берутся против Draw Ranger и Sniper
+phase boots:время:5-6 Минута
+phase boots:причина:Дают броню и проще догнать ренж героев
+phase boots:место:В Основной лавке, в разделе Аксессуары
+phase boots:утверждение:Да_Нет
+aghanim's scepter:субъект:(4200) Aghanim's Scepter зачаровывает снаряженного героя, усиливая или добавляя новые эффекты к одной или нескольким его способностям, добавляя им новые способности, или в другие новые и особенные способы.
+aghanim's scepter:описание:Усиливает вторую способность, дает 40% сопротивления эффектам, регенерацию здоровья и броню
+aghanim's scepter:время:30-40 минута
+aghanim's scepter:причина:Если у противника много контроля сквозь сопротивление к магии
+aghanim's scepter:место: Предмет, который можно приобрести в Основной лавке, в разделе Магия. Однако, для создания он требует предмет из потайной лавки. Его можно улучшить купив рецепт, который автоматически вселяет предмет, давая бафф от Aghanim's Scepter и освобождая ячейку в инвентаре. Однако, после вселения, он больше не будет давать характеристики, здоровье и ману.
+aghanim's scepter:утверждение:Да_Нет
+boots of speed:субъект:
+boots of speed:описание:
+boots of speed:время:
+boots of speed:причина:
+boots of speed:место:
+boots of speed:утверждение:
+
+tranquil boots:субъект:
+tranquil boots:описание:
+tranquil boots:время:
+tranquil boots:причина:
+tranquil boots:место:
+tranquil boots:утверждение:
+
+aghanim's shard:субъект:
+aghanim's shard:описание:
+aghanim's shard:время:
+aghanim's shard:причина:
+aghanim's shard:место:
+aghanim's shard:утверждение:
+
+hand of midas:субъект:
+hand of midas:описание:
+hand of midas:время:
+hand of midas:причина:
+hand of midas:место:
+hand of midas:утверждение:
+
+black king bar:бкб_bkb_black king bar_посох короля
+mask of madness:мом_mom_mask of madness_madness_меднес_мэднес_мэднэс_маднес_момчик
+shadow blade:шб_лотар_lotar_shadow blade_инвиз_невидимость_sb
+assault curiass:ребра_рёбра_assault_assault cuirass_cuirass_кираса_кирасса_кирасу_кирассу
+skull basher:skull basher_basher_abyssal blade_башер_купить баш
+armlet of mordiggian:армлет_armlet of mordiggian_mordiggian_armlet
