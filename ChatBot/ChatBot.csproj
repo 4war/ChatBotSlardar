@@ -49,7 +49,7 @@
     <Compile Include="AiKnowledge\AiResponse.cs" />
     <Compile Include="AiKnowledge\Answers.cs" />
     <Compile Include="AiLogic.cs" />
-    <Compile Include="ChatViewModel.cs" />
+    <Compile Include="ChatController.cs" />
     <Compile Include="Defaults.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>

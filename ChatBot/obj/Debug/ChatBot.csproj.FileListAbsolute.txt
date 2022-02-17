@@ -7,3 +7,12 @@ C:\Users\fedro\Рабочий стол\Семак 8\Искусственный �
 C:\Users\fedro\Рабочий стол\Семак 8\Искусственный интеллект\ChatBot\ChatBot\obj\Debug\ChatBot.csproj.CoreCompileInputs.cache
 C:\Users\fedro\Рабочий стол\Семак 8\Искусственный интеллект\ChatBot\ChatBot\obj\Debug\ChatBot.exe
 C:\Users\fedro\Рабочий стол\Семак 8\Искусственный интеллект\ChatBot\ChatBot\obj\Debug\ChatBot.pdb
+C:\Users\slardar\Desktop\Семак 8\ИИ\ChatBotSlardar\ChatBot\bin\Debug\ChatBot.exe.config
+C:\Users\slardar\Desktop\Семак 8\ИИ\ChatBotSlardar\ChatBot\bin\Debug\ChatBot.exe
+C:\Users\slardar\Desktop\Семак 8\ИИ\ChatBotSlardar\ChatBot\bin\Debug\ChatBot.pdb
+C:\Users\slardar\Desktop\Семак 8\ИИ\ChatBotSlardar\ChatBot\obj\Debug\ChatBot.csprojAssemblyReference.cache
+C:\Users\slardar\Desktop\Семак 8\ИИ\ChatBotSlardar\ChatBot\obj\Debug\ChatBot.Properties.Resources.resources
+C:\Users\slardar\Desktop\Семак 8\ИИ\ChatBotSlardar\ChatBot\obj\Debug\ChatBot.csproj.GenerateResource.cache
+C:\Users\slardar\Desktop\Семак 8\ИИ\ChatBotSlardar\ChatBot\obj\Debug\ChatBot.csproj.CoreCompileInputs.cache
+C:\Users\slardar\Desktop\Семак 8\ИИ\ChatBotSlardar\ChatBot\obj\Debug\ChatBot.exe
+C:\Users\slardar\Desktop\Семак 8\ИИ\ChatBotSlardar\ChatBot\obj\Debug\ChatBot.pdb

@@ -35,7 +35,7 @@ namespace ChatBot
                 return GetRandomFromList(Resources.Сарказм);
             }
             
-            if (_userRequest.KeyWord is null)
+            if (string.IsNullOrEmpty(_userRequest.KeyWord))
             {
                 if (_userRequest.Question is null)
                 {
@@ -50,7 +50,7 @@ namespace ChatBot
                 newResponse.KeyWord = _lastResponse.KeyWord;
                 
             }
-            else if(_userRequest.Question is null)
+            else if(string.IsNullOrEmpty(_userRequest.Question))
             {
                 if (questionMark)
                 {
@@ -121,12 +121,27 @@ namespace ChatBot
 
         private string FindExactWord(string[] words, IDictionary<string, HashSet<string>> dictionary)
         {
+            var priority = dictionary.Count;
+            var result = string.Empty;
             foreach (var word in words)
-            foreach (var questionWord in dictionary)
-                if (questionWord.Value.Contains(word))
-                    return questionWord.Key;
-
-            return null;
+            {
+                var currentPriority = 0;
+                foreach (var questionWord in dictionary)
+                {
+                    currentPriority++;
+                    if (questionWord.Value.Contains(word))
+                    {
+                        if (currentPriority < priority)
+                        {
+                            priority = currentPriority;
+                            result = questionWord.Key;
+                            break;
+                        }
+                    }
+                }
+            }
+            
+            return result;
         }
 
         static SimpleAiLogic()
