@@ -32,14 +32,14 @@ namespace ChatBot
             if (_userRequest.Cringe)
             {
                 _lastResponse = null;
-                return GetRandomFromList(Resources.Сарказм);
+                return GetRandomFromList(Resources.Непонятно);
             }
             
             if (string.IsNullOrEmpty(_userRequest.KeyWord))
             {
                 if (_userRequest.Question is null)
                 {
-                    return GetRandomFromList(Resources.Сарказм);
+                    return GetRandomFromList(Resources.Непонятно);
                 }
                 
                 newResponse.Question = _userRequest.Question;
@@ -152,7 +152,7 @@ namespace ChatBot
             {
                 var firstSplit = line.Split(':');
                 var key = firstSplit[0];
-                var set = new HashSet<string>(firstSplit[1].Split('_'));
+                var set = new HashSet<string>(firstSplit[1].Split(new []{'_','\r'}));
                 Questions[key] = set;
             }
 
@@ -165,7 +165,7 @@ namespace ChatBot
                 {
                     var firstSplit = line.Split(':');
                     var key = firstSplit[0];
-                    var set = new HashSet<string>(firstSplit[1].Split('_'));
+                    var set = new HashSet<string>(firstSplit[1].Split(new []{'_','\r'}));
                     KeyWords[key] = set;
                 }
             }

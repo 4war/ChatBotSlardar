@@ -45,7 +45,7 @@ namespace ChatBot
             {
                 Width = Math.Max(Math.Min(LetterWidth * message.Length + HorizontalOffset, _maxWidth), HorizontalOffset),
                 Text = message,
-                Height = height,
+                Height = (int)(height * 0.7),
                 ForeColor = Defaults.White
             };
             _chatPanel.Controls.Add(messageControl);

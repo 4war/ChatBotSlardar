@@ -9,9 +9,7 @@ namespace ChatBot
     {
         public const int Offset = 20;
         public const int VerticalPadding = 7;
-        public bool FromSelf { get; set; }
-        public sealed override Color ForeColor { get; set; } = Defaults.White;
-
+        public bool FromSelf { get; }
         private GraphicsPath GetRoundPath(RectangleF Rect, int radius)
         {
             var r2 = radius / 2f;
@@ -52,15 +50,9 @@ namespace ChatBot
             Anchor = fromUser ? AnchorStyles.Right : AnchorStyles.Left;
             ForeColor = Defaults.White;
             TextAlign = fromUser ? ContentAlignment.MiddleRight : ContentAlignment.MiddleLeft;
-            Padding = new Padding(Offset, VerticalPadding, Offset, VerticalPadding);
-            Margin = new Padding(Offset, VerticalPadding, Offset, VerticalPadding);
+            Padding = new Padding(Offset, 0, Offset, 0);
+            Margin = new Padding(Offset, 0, Offset, 0);
             Font = Defaults.Font;
-        }
-
-        public sealed override Color BackColor
-        {
-            get { return base.BackColor; }
-            set { base.BackColor = value; }
         }
     }
 }
